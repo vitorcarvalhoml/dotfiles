@@ -1,0 +1,14 @@
+#!/bin/bash
+BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# homesbrew
+bash ${BASEDIR}/.homebrew/install.sh
+# osx
+bash ${BASEDIR}/.osx/install.sh
+# python
+bash ${BASEDIR}/.python/install.sh
+# zsh
+ln -s ${BASEDIR}/.zshrc ~/.zshrc
+# aws
+ln -s ${BASEDIR}/.aws/config ~/.aws/config
+ln -s ${BASEDIR}/.aws/credentials ~/.aws/credentials

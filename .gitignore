@@ -1,0 +1,12 @@
+#DS_Store files
+*.DS_Store*
+# AWS
+.aws/credentials
+# SSH
+*id_rsa*
+*id_dsa*
+*id_ecdsa*
+*authorized_keys
+*known_hosts
+# History
+*history
