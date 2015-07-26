@@ -41,7 +41,7 @@ brew install wget --with-iri
 # Install homebrew cask
 brew tap caskroom/cask
 brew install brew-cask
-brew cask install atom google-chrome spotify alfred 1password slack the-unarchiver lastpass little-snitch cleanmymac cinch teamviewer iterm2 megasync libreoffice transmission
+brew cask install atom google-chrome spotify alfred 1password slack the-unarchiver lastpass little-snitch cleanmymac cinch teamviewer iterm2 megasync libreoffice transmissio emby-server
 
 # Remove outdated versions from the cellar.
 brew cleanup
