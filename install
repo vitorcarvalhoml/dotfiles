@@ -8,6 +8,8 @@ bash ${BASEDIR}/.python/install.sh
 ln -s ${BASEDIR}/.zshrc ~/.zshrc
 # aws
 ln -s ${BASEDIR}/.aws/config ~/.aws/config
+touch ${BASEDIR}/.aws/credentials
+ln -s ${BASEDIR}/.aws/credentials ~/.aws/credentials
 # atom
 ln -s ${BASEDIR}/.atom.symlink ~/.atom
 # osx

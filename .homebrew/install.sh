@@ -64,9 +64,9 @@ brew cask install evernote
 brew cask install steam
 brew cask install chrome-remote-desktop-host
 brew cask install --appdir=/Applications megasync
-echo "open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app" > run.this.after.wards.sh
-echo "open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/" >> run.this.after.wards.sh
-chmod +x run.this.after.wards.sh
+echo "open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app" > bash ${BASEDIR}/postinstall.sh
+echo "open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/" >> bash ${BASEDIR}/postinstall.sh
+chmod +x ${BASEDIR}/postinstall.sh
 
 # Remove outdated versions from the cellar.
 brew cleanup

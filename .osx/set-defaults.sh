@@ -447,4 +447,5 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	"Transmission" "Twitter" "iCal"; do
 	killall "${app}" > /dev/null 2>&1
 done
-echo "Done. Note that some of these changes require a logout/restart to take effect.
+echo "Done. Note that some of these changes require a logout/restart to take effect."
+bash ${BASEDIR}/postinstall.sh 
