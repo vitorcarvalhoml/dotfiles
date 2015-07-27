@@ -1,15 +1,14 @@
 #!/bin/bash
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-# osx
-bash ${BASEDIR}/.osx/set-defaults.sh
+# homesbrew
+bash ${BASEDIR}/.homebrew/install.sh
 # python
 bash ${BASEDIR}/.python/install.sh
 # zsh
 ln -s ${BASEDIR}/.zshrc ~/.zshrc
 # aws
 ln -s ${BASEDIR}/.aws/config ~/.aws/config
-# homesbrew
-bash ${BASEDIR}/.homebrew/install.sh
 # atom
 ln -s ${BASEDIR}/.atom.symlink ~/.atom
+# osx
+bash ${BASEDIR}/.osx/set-defaults.sh
