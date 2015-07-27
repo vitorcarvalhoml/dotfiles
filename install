@@ -4,7 +4,7 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # homesbrew
 bash ${BASEDIR}/.homebrew/install.sh
 # osx
-bash ${BASEDIR}/.osx/install.sh
+bash ${BASEDIR}/.osx/set-defaults.sh
 # python
 bash ${BASEDIR}/.python/install.sh
 # zsh
