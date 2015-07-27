@@ -62,7 +62,9 @@ brew cask install transmission
 brew cask install emby-server
 brew cask install evernote
 brew cask install steam
+brew cask install istat-menus
 brew cask install chrome-remote-desktop-host
+brew cask install vlc
 brew cask install --appdir=/Applications megasync
 echo "open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app" > bash ${BASEDIR}/postinstall.sh
 echo "open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/" >> bash ${BASEDIR}/postinstall.sh
