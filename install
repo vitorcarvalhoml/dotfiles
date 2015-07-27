@@ -4,9 +4,6 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 bash ${BASEDIR}/.homebrew/install.sh
 # python
 bash ${BASEDIR}/.python/install.sh
-# zsh
-bash ${BASEDIR}/.zshrc/install.sh
-ln -s ${BASEDIR}/.zshrc ~/.zshrc
 # aws
 ln -s ${BASEDIR}/.aws/config ~/.aws/config
 touch ${BASEDIR}/.aws/credentials
@@ -17,3 +14,6 @@ ln -s ${BASEDIR}/.atom.symlink ~/.atom
 bash ${BASEDIR}/.osx/set-defaults.sh
 # iTerm2
 ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+# zsh
+bash ${BASEDIR}/.zshrc/install.sh
+ln -s ${BASEDIR}/.zshrc ~/.zshrc
