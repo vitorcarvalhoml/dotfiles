@@ -1,3 +1,4 @@
+echo ".env scripts"
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd )"
 export EDITOR='atom'
 export GREP_OPTIONS='—color=auto'

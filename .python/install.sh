@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ".python scripts"
 # Ask for the administrator password upfront
 sudo -v
 # Keep-alive: update existing `sudo` time stamp until `.osx` has finished

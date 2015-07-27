@@ -2,6 +2,7 @@
 # Usage: extract <file>
 # Description: extracts archived files / mounts disk images
 # Note: .dmg/hdiutil is Mac OS X-specific.
+echo ".functions scripts"
 extract () {
     if [ -f $1 ]; then
         case $1 in

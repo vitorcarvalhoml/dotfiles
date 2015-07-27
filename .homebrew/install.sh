@@ -4,7 +4,7 @@
 #
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
-
+echo ".homebrew scripts"
 # Ask for the administrator password upfront.
 sudo -v
 
@@ -36,7 +36,6 @@ brew install homebrew/dupes/screen
 brew install ansible awscli curl htop ssh-copy-id aria2 httpie nmap packer terraform youtube-dl p7zip tree
 # Install `wget` with IRI support.
 brew install wget --with-iri
-
 
 # Install homebrew cask
 brew tap caskroom/cask
