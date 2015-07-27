@@ -44,10 +44,29 @@ brew install wget --with-iri
 # Install homebrew cask
 brew tap caskroom/cask
 brew install brew-cask
-brew cask install atom google-chrome spotify alfred 1password slack the-unarchiver lastpass little-snitch cleanmymac cinch teamviewer iterm2 libreoffice transmission emby-server evernote steam chrome-remote-desktop-host
+brew cask install atom
+brew cask install google-chrome
+brew cask install spotify
+brew cask install alfred
+brew cask install 1password
+brew cask install slack
+brew cask install the-unarchiver
+brew cask install lastpass
+brew cask install little-snitch
+brew cask install cleanmymac
+brew cask install cinch
+brew cask install teamviewer
+brew cask install iterm2
+brew cask install libreoffice
+brew cask install transmission
+brew cask install emby-server
+brew cask install evernote
+brew cask install steam
+brew cask install chrome-remote-desktop-host
+brew cask install --appdir=/Applications megasync
 open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app
 open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/
-brew cask --appdir=/Applications install megasync
+
 
 
 # Remove outdated versions from the cellar.
