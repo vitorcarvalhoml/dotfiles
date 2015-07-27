@@ -1,8 +1,6 @@
 #!/bin/bash
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# homesbrew
-bash ${BASEDIR}/.homebrew/install.sh
 # osx
 bash ${BASEDIR}/.osx/set-defaults.sh
 # python
@@ -11,3 +9,5 @@ bash ${BASEDIR}/.python/install.sh
 ln -s ${BASEDIR}/.zshrc ~/.zshrc
 # aws
 ln -s ${BASEDIR}/.aws/config ~/.aws/config
+# homesbrew
+bash ${BASEDIR}/.homebrew/install.sh
