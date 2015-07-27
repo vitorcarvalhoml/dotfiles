@@ -15,3 +15,5 @@ ln -s ${BASEDIR}/.aws/credentials ~/.aws/credentials
 ln -s ${BASEDIR}/.atom.symlink ~/.atom
 # osx
 bash ${BASEDIR}/.osx/set-defaults.sh
+# iTerm2
+ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
