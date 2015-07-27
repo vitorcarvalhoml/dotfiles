@@ -10,3 +10,6 @@
 *known_hosts
 # History
 *history
+# Atom
+.atom.symlink/packages*
+.atom.symlink/storage*

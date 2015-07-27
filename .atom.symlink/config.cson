@@ -1,0 +1,18 @@
+"*":
+  "exception-reporting":
+    userId: "daf52fce-1ac1-5215-0a62-58b184e9ea84"
+  welcome:
+    showOnStartup: false
+  linter: {}
+  "one-dark-ui": {}
+  core:
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor:
+    invisibles: {}
+    softWrap: true
+    fontSize: 13
+  "tree-view":
+    hideVcsIgnoredFiles: true

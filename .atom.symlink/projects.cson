@@ -1,0 +1,25 @@
+Ansible:
+  title: "Ansible"
+  paths: [
+    "/Users/Lucazz/Documents/Ansible"
+  ]
+"LaTeX Projects":
+  title: "LaTeX Projects"
+  paths: [
+    "/Users/Lucazz/Documents/LaTeX Projects"
+  ]
+Vargant:
+  title: "Vargant"
+  paths: [
+    "/Users/Lucazz/Vargant"
+  ]
+Packer:
+  title: "Packer"
+  paths: [
+    "/Users/Lucazz/Packer"
+  ]
+dotfiles:
+  title: "dotfiles"
+  paths: [
+    "/Users/Lucazz/.dotfiles"
+  ]
