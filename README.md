@@ -10,6 +10,6 @@ You don't. [Dotfiles Are Not Meant to Be Forked](http://www.anishathalye.com/201
 
 But, if you do:
 
-    $ git clone git@github.com:lucazz/dotfiles.git  ~/.dotfiles
+    $ git clone https://github.com/lucazz/dotfiles.git  ~/.dotfiles
     $ cd .dotfiles
-    $ ~/.dotfiles/./install 
+    $ ~/.dotfiles/./install
