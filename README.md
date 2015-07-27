@@ -14,4 +14,3 @@ But, if you do:
     $ git clone https://github.com/lucazz/dotfiles.git  ~/.dotfiles
     $ cd .dotfiles
     $ ./install
-    $ ./run.this.after.wards.sh
