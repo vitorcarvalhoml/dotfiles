@@ -11,4 +11,3 @@ bash ${BASEDIR}/.python/install.sh
 ln -s ${BASEDIR}/.zshrc ~/.zshrc
 # aws
 ln -s ${BASEDIR}/.aws/config ~/.aws/config
-ln -s ${BASEDIR}/.aws/credentials ~/.aws/credentials
