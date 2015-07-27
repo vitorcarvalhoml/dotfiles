@@ -33,14 +33,18 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install homebrew packages
-brew install ansible awscli curl htop ssh-copy-id aria2 httpie nmap packer terraform youtube-dl p7zip tree
+brew install ansible awscli curl htop ssh-copy-id aria2 httpie nmap packer terraform youtube-dl p7zip tree findutils speedtest_cli
+# Install more recent versions of some OS X tools.
+brew install homebrew/dupes/screen
+brew install homebrew/dupes/openssh
+brew install homebrew/dupes/grep
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
 # Install homebrew cask
 brew tap caskroom/cask
 brew install brew-cask
-brew cask install atom google-chrome spotify alfred 1password slack the-unarchiver lastpass little-snitch cleanmymac cinch teamviewer iterm2 libreoffice transmission emby-server evernote steam chrome-remote-desktop-host 
+brew cask install atom google-chrome spotify alfred 1password slack the-unarchiver lastpass little-snitch cleanmymac cinch teamviewer iterm2 libreoffice transmission emby-server evernote steam chrome-remote-desktop-host
 open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app
 open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/
 brew cask --appdir=/Applications install megasync
