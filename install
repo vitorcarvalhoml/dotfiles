@@ -5,6 +5,7 @@ bash ${BASEDIR}/.homebrew/install.sh
 # python
 bash ${BASEDIR}/.python/install.sh
 # zsh
+bash ${BASEDIR}/.zshrc/install.sh
 ln -s ${BASEDIR}/.zshrc ~/.zshrc
 # aws
 ln -s ${BASEDIR}/.aws/config ~/.aws/config
