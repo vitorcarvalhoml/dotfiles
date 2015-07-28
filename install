@@ -16,5 +16,3 @@ bash ${BASEDIR}/.osx/set-defaults.sh
 ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 # zsh
 bash ${BASEDIR}/.zshrc/install.sh
-~/.zshrc
-ln -s ${BASEDIR}/.zshrc/.zshrc ~/.zshrc
