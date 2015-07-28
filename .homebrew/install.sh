@@ -53,7 +53,6 @@ brew cask install --appdir=/Applications megasync
 brew cask install google-chrome
 brew cask install spotify
 brew cask install alfred
-brew cask install 1password
 brew cask install slack
 brew cask install the-unarchiver
 brew cask install cleanmymac
