@@ -19,11 +19,11 @@ plugins=(aws vagrant colored-man)
 # User configuration
 source $ZSH/oh-my-zsh.sh
 #env vars
-source .env/.env.zsh
+source ~/.dotfiles/.env/.env.zsh
 #aliases
-source .alias/.alias.zsh
+source ~/.dotfiles/.alias/.alias.zsh
 #functions
-source .functions/.extract.zsh
+source ~/.dotfiles/.functions/.extract.zsh
 #awscli
 source /usr/local/share/zsh/site-functions/_aws
 complete -C aws_completer aws
