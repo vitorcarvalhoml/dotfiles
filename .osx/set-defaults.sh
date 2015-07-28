@@ -333,28 +333,28 @@ sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Vol
 # 	MENU_WEBSEARCH             (send search queries to Apple)
 # 	MENU_OTHER
 defaults write com.apple.spotlight orderedItems -array \
-	'{"disabled" = 1;"name" = "APPLICATIONS";}' \
-	'{"disabled" = 1;"name" = "SYSTEM_PREFS";}' \
-	'{"disabled" = 1;"name" = "DIRECTORIES";}' \
-	'{"disabled" = 1;"name" = "PDF";}' \
-	'{"disabled" = 1;"name" = "FONTS";}' \
-	'{"disabled" = 0;"name" = "DOCUMENTS";}' \
-	'{"disabled" = 0;"name" = "MESSAGES";}' \
-	'{"disabled" = 0;"name" = "CONTACT";}' \
-	'{"disabled" = 0;"name" = "EVENT_TODO";}' \
-	'{"disabled" = 0;"name" = "IMAGES";}' \
-	'{"disabled" = 0;"name" = "BOOKMARKS";}' \
-	'{"disabled" = 0;"name" = "MUSIC";}' \
-	'{"disabled" = 0;"name" = "MOVIES";}' \
-	'{"disabled" = 0;"name" = "PRESENTATIONS";}' \
-	'{"disabled" = 0;"name" = "SPREADSHEETS";}' \
-	'{"disabled" = 0;"name" = "SOURCE";}' \
-	'{"disabled" = 0;"name" = "MENU_DEFINITION";}' \
-	'{"disabled" = 0;"name" = "MENU_OTHER";}' \
-	'{"disabled" = 0;"name" = "MENU_CONVERSION";}' \
-	'{"disabled" = 0;"name" = "MENU_EXPRESSION";}' \
-	'{"disabled" = 0;"name" = "MENU_WEBSEARCH";}' \
-	'{"disabled" = 0;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
+	'{"enabled" = 0;"name" = "APPLICATIONS";}' \
+	'{"enabled" = 0;"name" = "SYSTEM_PREFS";}' \
+	'{"enabled" = 0;"name" = "DIRECTORIES";}' \
+	'{"enabled" = 0;"name" = "PDF";}' \
+	'{"enabled" = 0;"name" = "FONTS";}' \
+	'{"enabled" = 0;"name" = "DOCUMENTS";}' \
+	'{"enabled" = 0;"name" = "MESSAGES";}' \
+	'{"enabled" = 0;"name" = "CONTACT";}' \
+	'{"enabled" = 0;"name" = "EVENT_TODO";}' \
+	'{"enabled" = 0;"name" = "IMAGES";}' \
+	'{"enabled" = 0;"name" = "BOOKMARKS";}' \
+	'{"enabled" = 0;"name" = "MUSIC";}' \
+	'{"enabled" = 0;"name" = "MOVIES";}' \
+	'{"enabled" = 0;"name" = "PRESENTATIONS";}' \
+	'{"enabled" = 0;"name" = "SPREADSHEETS";}' \
+	'{"enabled" = 0;"name" = "SOURCE";}' \
+	'{"enabled" = 0;"name" = "MENU_DEFINITION";}' \
+	'{"enabled" = 0;"name" = "MENU_OTHER";}' \
+	'{"enabled" = 0;"name" = "MENU_CONVERSION";}' \
+	'{"enabled" = 0;"name" = "MENU_EXPRESSION";}' \
+	'{"enabled" = 0;"name" = "MENU_WEBSEARCH";}' \
+	'{"enabled" = 0;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
 # Load new settings before rebuilding the index
 killall mds > /dev/null 2>&1
 # Make sure indexing is enabled for the main volume
@@ -368,7 +368,9 @@ sudo mdutil -E / > /dev/null
 
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
-
+# Install iTerm2 themes
+open "${HOME}/.dotfiles/.iterm2/Solarized Dark.itermcolors"
+open "${HOME}/.dotfiles/.iterm2/LondonTube.itermcolors"
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
@@ -418,8 +420,6 @@ defaults write com.google.Chrome.canary PMPrintingExpandedStateForPrint2 -bool t
 ###############################################################################
 # Don’t prompt for confirmation before downloading
 defaults write org.m0k.transmission DownloadAsk -bool false
-# Trash original torrent files
-defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
 # Hide the donate message
 defaults write org.m0k.transmission WarningDonate -bool false
 # Hide the legal disclaimer

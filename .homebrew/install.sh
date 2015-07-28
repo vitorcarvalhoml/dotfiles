@@ -45,12 +45,12 @@ brew install wget --with-iri
 brew tap caskroom/cask
 brew install brew-cask
 brew cask install atom
+brew cask install google-chrome
 brew cask install little-snitch
 open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app
 brew cask install lastpass
 open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/
 brew cask install --appdir=/Applications megasync
-brew cask install google-chrome
 brew cask install spotify
 brew cask install alfred
 brew cask install slack
