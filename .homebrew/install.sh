@@ -45,14 +45,17 @@ brew install wget --with-iri
 brew tap caskroom/cask
 brew install brew-cask
 brew cask install atom
+brew cask install little-snitch
+open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app
+brew cask install lastpass
+open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/
+brew cask install --appdir=/Applications megasync
 brew cask install google-chrome
 brew cask install spotify
 brew cask install alfred
 brew cask install 1password
 brew cask install slack
 brew cask install the-unarchiver
-brew cask install lastpass
-brew cask install little-snitch
 brew cask install cleanmymac
 brew cask install cinch
 brew cask install teamviewer
@@ -65,10 +68,6 @@ brew cask install steam
 brew cask install istat-menus
 brew cask install chrome-remote-desktop-host
 brew cask install vlc
-brew cask install --appdir=/Applications megasync
-echo "open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app" > bash ${BASEDIR}/postinstall.sh
-echo "open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/" >> bash ${BASEDIR}/postinstall.sh
-chmod +x ${BASEDIR}/postinstall.sh
 
 # Remove outdated versions from the cellar.
 brew cleanup
