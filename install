@@ -17,4 +17,4 @@ ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.g
 # zsh
 bash ${BASEDIR}/.zshrc/install.sh
 rm ~/.zshrc
-ln -s ${BASEDIR}/.zshrc ~/.zshrc
+ln -s ${BASEDIR}/.zshrc/.zshrc ~/.zshrc
