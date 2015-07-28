@@ -71,6 +71,7 @@ defaults write com.apple.helpviewer DevMode -bool true
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
 sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
+sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool true
 
 # Restart automatically if the computer freezes
 sudo systemsetup -setrestartfreeze on
@@ -424,6 +425,19 @@ defaults write org.m0k.transmission DownloadAsk -bool false
 defaults write org.m0k.transmission WarningDonate -bool false
 # Hide the legal disclaimer
 defaults write org.m0k.transmission WarningLegal -bool false
+
+###############################################################################
+# Network, VPN, Active Directory & Time Services															#
+###############################################################################
+killall cfprefsd
+sudo killall cupsd
+sudo launchctl unload /System/Library/LaunchDaemons/org.cups.cupsd.plist
+sudo launchctl load /System/Library/LaunchDaemons/org.cups.cupsd.plist
+sudo update_dyld_shared_cache -root /
+###############################################################################
+# Disable OS X OS Prerelease downloads for all users													#
+###############################################################################
+sudo defaults write /Library/Preferences/com.apple.SoftwareUpdate AllowPreReleaseInstallation -bool false
 
 ###############################################################################
 # Kill affected applications                                                  #

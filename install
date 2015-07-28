@@ -13,6 +13,9 @@ ln -s ${BASEDIR}/.atom.symlink ~/.atom
 # osx
 bash ${BASEDIR}/.osx/set-defaults.sh
 # iTerm2
+rm ~/Library/Preferences/com.googlecode.iterm2.plist
 ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 # zsh
 bash ${BASEDIR}/.zshrc/install.sh
+rm ~/.zshrc
+ln -s ${BASEDIR}/.zshrc/.zshrc ~/.zshrc
