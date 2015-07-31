@@ -67,6 +67,7 @@ brew cask install steam
 brew cask install istat-menus
 brew cask install chrome-remote-desktop-host
 brew cask install vlc
+brew cask install pomotodo
 
 # Remove outdated versions from the cellar.
 brew cleanup
