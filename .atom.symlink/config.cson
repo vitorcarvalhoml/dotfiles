@@ -16,3 +16,4 @@
     fontSize: 13
   "tree-view":
     hideVcsIgnoredFiles: true
+  latex: {}
