@@ -6,12 +6,10 @@ sudo bash ${BASEDIR}/.ntp/install.sh
 bash ${BASEDIR}/.homebrew/install.sh
 # python
 bash ${BASEDIR}/.python/install.sh
-# aws
-ln -s ${BASEDIR}/.aws/config ~/.aws/config
-touch ${BASEDIR}/.aws/credentials
-ln -s ${BASEDIR}/.aws/credentials ~/.aws/credentials
 # atom
 ln -s ${BASEDIR}/.atom.symlink ~/.atom
+# vimfiles
+ln -s ${BASEDIR}/.vimfiles/.vimrc ~/.vimrc
 # osx
 bash ${BASEDIR}/.osx/set-defaults.sh
 # iTerm2
