@@ -12,6 +12,8 @@ ln -s ${BASEDIR}/.atom.symlink ~/.atom
 ln -s ${BASEDIR}/.vimfiles/.vimrc ~/.vimrc
 # osx
 bash ${BASEDIR}/.osx/set-defaults.sh
+# Powerline
+bash ${BASEDIR}/.powerline/install.sh
 # iTerm2
 rm ~/Library/Preferences/com.googlecode.iterm2.plist
 ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
