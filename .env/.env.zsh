@@ -8,3 +8,4 @@ export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export ANSIBLE_CONFIG=${BASEDIR}/Documents/Ansible/ansible.cfg
 export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
 export LANG=en_US.UTF-8
+export LSCOLORS="Gxfxcxdxbxegedabagacad"
