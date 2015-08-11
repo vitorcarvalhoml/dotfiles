@@ -13,7 +13,7 @@
   editor:
     invisibles: {}
     softWrap: true
-    fontSize: 13
+    fontSize: 12
   "tree-view":
     hideVcsIgnoredFiles: true
   latex: {}
