@@ -70,6 +70,7 @@ brew cask install screenhero
 brew cask install vagrant
 brew cask install gpgtools
 brew cask install spectacle
+brew cask install visualvm
 
 # Remove outdated versions from the cellar.
 brew cleanup

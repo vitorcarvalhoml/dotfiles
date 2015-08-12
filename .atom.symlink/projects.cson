@@ -8,11 +8,6 @@ Ansible:
   paths: [
     "/Users/Lucazz/Documents/LaTeX Projects"
   ]
-Vargant:
-  title: "Vargant"
-  paths: [
-    "/Users/Lucazz/Vargant"
-  ]
 Packer:
   title: "Packer"
   paths: [
@@ -22,4 +17,9 @@ dotfiles:
   title: "dotfiles"
   paths: [
     "/Users/Lucazz/.dotfiles"
+  ]
+Vagrant:
+  title: "Vagrant"
+  paths: [
+    "/Users/Lucazz/Documents/Vagrant"
   ]
