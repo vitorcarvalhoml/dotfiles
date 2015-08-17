@@ -32,7 +32,7 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install homebrew packages
-brew install ansible awscli curl htop ssh-copy-id aria2 httpie nmap packer terraform youtube-dl p7zip tree findutils speedtest_cli keybase
+brew install ansible awscli curl htop ssh-copy-id aria2 httpie nmap packer terraform youtube-dl p7zip tree findutils speedtest_cli keybase pwgen
 # Install more recent versions of some OS X tools.
 brew install homebrew/dupes/screen
 brew install homebrew/dupes/openssh
