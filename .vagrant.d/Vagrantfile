@@ -1,0 +1,67 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+Vagrant.configure(2) do |config|
+  ## Vanilla centos7 instance - Packer Built
+  config.vm.define "centos" do |centos7_config|
+    centos7_config.vm.box = "centos7"
+    #centos7_config.ssh.insert_key  = true
+    #centos7_config.ssh.private_key_path = "~/.ssh/id_rsa"
+    #centos7_config.ssh.username = 'lucazz'
+    centos7_config.vm.synced_folder "Shared", "/vagrant", disabled: true
+    centos7_config.vm.network "private_network", ip: "172.16.15.14"
+    centos7_config.vm.network "public_network", bridge: [
+      "en1: Wi-Fi (AirPort)",
+      "en4: Thunderbolt Ethernet",
+    ]
+    #centos7_config.vm.provision "ansible" do |ansible|
+    #  ansible.playbook = "~/Ansible/vagrant.yml"
+    #  ansible.verbose = "vv"
+    # end
+    centos7_config.vm.provider "vmware_fusion" do |vmware|
+      vmware.gui = false
+      vmware.vmx["memsize"] = "1024"
+      vmware.vmx["numvcpus"] = "1"
+    end
+  end
+  ## Ubuntu Official: https://atlas.hashicorp.com/hashicorp/boxes/precise64
+  config.vm.define :ubuntu, autostart: true do |ubuntu_config|
+    ubuntu_config.vm.box = "hashicorp/precise64"
+    ubuntu_config.vm.synced_folder "Shared", "/vagrant", disabled: true
+    ubuntu_config.vm.network "private_network", ip: "172.16.15.13"
+    ubuntu_config.vm.network "public_network", bridge: [
+      "en1: Wi-Fi (AirPort)",
+      "en4: Thunderbolt Ethernet",
+    ]
+    ubuntu_config.vm.provider "vmware_fusion" do |vmware|
+      vmware.vmx["memsize"] = "1024"
+      vmware.vmx["numvcpus"] = "1"
+    end
+  end
+  ## CoreOS Official: https://github.com/coreos/coreos-vagrant
+  config.vm.define :coreos, autostart: true do |coreos_config|
+    coreos_config.vm.box = "coreos-box"  # to delete: 'vagrant destroy; box remove coreos-box'
+    coreos_config.vm.synced_folder "Shared", "/vagrant", disabled: true
+    coreos_config.vm.network "private_network", ip: "172.16.15.12"
+    coreos_config.vm.network "public_network", bridge: [
+      "en1: Wi-Fi (AirPort)",
+      "en4: Thunderbolt Ethernet",
+    ]
+    coreos_config.vm.provider "vmware_fusion" do |vmware, override|
+      override.vm.box_url = "http://stable.release.core-os.net/amd64-usr/current/coreos_production_vagrant_vmware_fusion.box"
+    end
+  end
+  ## CoreOS Official: https://github.com/coreos/coreos-vagrant
+  config.vm.define :DockerMachine, autostart: true do |coreos_config|
+    coreos_config.vm.box = "coreos-box"  # to delete: 'vagrant destroy; box remove coreos-box'
+    coreos_config.vm.synced_folder "Shared", "/vagrant", disabled: true
+    coreos_config.vm.network "private_network", ip: "172.16.15.11"
+    coreos_config.vm.network "public_network", bridge: [
+      "en1: Wi-Fi (AirPort)",
+      "en4: Thunderbolt Ethernet",
+    ]
+    coreos_config.vm.provider "vmware_fusion" do |vmware, override|
+      override.vm.box_url = "http://stable.release.core-os.net/amd64-usr/current/coreos_production_vagrant_vmware_fusion.box"
+    end
+  end
+##Vagrant.configure EOF
+end

@@ -21,5 +21,5 @@ dotfiles:
 Vagrant:
   title: "Vagrant"
   paths: [
-    "/Users/Lucazz/Documents/Vagrant"
+    "/Users/Lucazz/Vagrant"
   ]

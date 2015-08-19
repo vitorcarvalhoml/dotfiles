@@ -1,0 +1,4 @@
+*boxes*
+*.vagrant/*
+*tmp/*
+*license-vagrant-vmware-fusion.lic*

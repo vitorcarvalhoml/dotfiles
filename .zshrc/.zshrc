@@ -9,7 +9,7 @@ ZSH_THEME="gianu"
 HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="false"
 
 # Loading plugins
 plugins=(aws vagrant colored-man)
