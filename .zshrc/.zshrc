@@ -1,18 +1,18 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/Lucazz/.oh-my-zsh
+export ZSH=/Users/vitor/.oh-my-zsh
 
 # Set name of the theme to load.
-ZSH_THEME="gianu"
+ZSH_THEME="daveverwer"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
 # sensitive completion must be off. _ and - will be interchangeable.
 HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="false"
+ENABLE_CORRECTION="true"
 
 # Loading plugins
-plugins=(aws vagrant colored-man)
+plugins=(git git-flow python vagrant)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh > /dev/null 2>&1
