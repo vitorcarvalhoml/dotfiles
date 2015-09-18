@@ -32,10 +32,9 @@ brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
 # Install homebrew packages
-brew install ansible awscli curl htop ssh-copy-id aria2 httpie nmap packer terraform youtube-dl p7zip tree findutils speedtest_cli keybase pwgen
+brew install curl htop ssh-copy-id aria2 httpie nmap youtube-dl p7zip tree findutils speedtest_cli keybase pwgen
 # Install more recent versions of some OS X tools.
 brew install homebrew/dupes/screen
-brew install homebrew/dupes/openssh
 brew install homebrew/dupes/grep
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -43,33 +42,24 @@ brew install wget --with-iri
 # Install homebrew cask
 brew tap caskroom/cask
 brew install brew-cask
-brew cask install atom
-brew cask install google-chrome
+brew cask install firefox 
 brew cask install little-snitch
 open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app
 brew cask install lastpass
 open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/
-brew cask install spotify
 brew cask install alfred
+brew cask install sublime-text3
 brew cask install slack
 brew cask install the-unarchiver
-brew cask install cleanmymac
 brew cask install cinch
-brew cask install teamviewer
-brew cask install iterm2
 brew cask install dropbox
 brew cask install transmission
-brew cask install emby-server
 brew cask install evernote
-brew cask install steam
-brew cask install istat-menus
-brew cask install chrome-remote-desktop-host
 brew cask install vlc
 brew cask install screenhero
 brew cask install vagrant
 brew cask install gpgtools
 brew cask install spectacle
-brew cask install visualvm
 
 # Remove outdated versions from the cellar.
 brew cleanup

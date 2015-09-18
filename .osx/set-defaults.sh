@@ -6,10 +6,10 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "Mac"
-sudo scutil --set HostName "Mac"
-sudo scutil --set LocalHostName "Mac"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Mac"
+sudo scutil --set ComputerName "uatalala"
+sudo scutil --set HostName "uatalala"
+sudo scutil --set LocalHostName "uatalala"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "uatalala"
 
 # Set standby delay to 24 hours (default is 1 hour)
 sudo pmset -a standbydelay 86400
@@ -17,11 +17,11 @@ sudo pmset -a standbydelay 86400
 # Disable transparency in the menu bar and elsewhere on Yosemite
 defaults write com.apple.universalaccess reduceTransparency -bool true
 
-# Menu bar: hide the Time Machine, Volume, and User icons
+# Menu bar: hide the Time Machine and User icons
 for domain in ~/Library/Preferences/ByHost/com.apple.systemuiserver.*; do
 	defaults write "${domain}" dontAutoLoad -array \
 		"/System/Library/CoreServices/Menu Extras/TimeMachine.menu" \
-		"/System/Library/CoreServices/Menu Extras/Volume.menu" \
+		# "/System/Library/CoreServices/Menu Extras/Volume.menu" \
 		"/System/Library/CoreServices/Menu Extras/User.menu"
 done
 defaults write com.apple.systemuiserver menuExtras -array \
@@ -74,7 +74,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo Hos
 sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool true
 
 # Restart automatically if the computer freezes
-sudo systemsetup -setrestartfreeze on
+# sudo systemsetup -setrestartfreeze on
 
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
@@ -139,13 +139,13 @@ defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
-sudo systemsetup -settimezone "Europe/Brussels" > /dev/null
+sudo systemsetup -settimezone "America/Fortaleza" > /dev/null
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Stop iTunes from responding to the keyboard media keys
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+# launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 ###############################################################################
 # Screen                                                                      #
@@ -320,60 +320,16 @@ defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 defaults write com.apple.Safari ProxiesInBookmarksBar "()"
 
 ###############################################################################
-# Spotlight                                                                   #
-###############################################################################
-# Hide Spotlight tray-icon (and subsequent helper)
-sudo chmod 600 /System/Library/CoreServices/Search.bundle/Contents/MacOS/Search
-sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
-# Change indexing order and disable some search results
-# Yosemite-specific search results (remove them if your are using OS X 10.9 or older):
-# 	MENU_DEFINITION
-# 	MENU_CONVERSION
-# 	MENU_EXPRESSION
-# 	MENU_SPOTLIGHT_SUGGESTIONS (send search queries to Apple)
-# 	MENU_WEBSEARCH             (send search queries to Apple)
-# 	MENU_OTHER
-defaults write com.apple.spotlight orderedItems -array \
-	'{"enabled" = 0;"name" = "APPLICATIONS";}' \
-	'{"enabled" = 0;"name" = "SYSTEM_PREFS";}' \
-	'{"enabled" = 0;"name" = "DIRECTORIES";}' \
-	'{"enabled" = 0;"name" = "PDF";}' \
-	'{"enabled" = 0;"name" = "FONTS";}' \
-	'{"enabled" = 0;"name" = "DOCUMENTS";}' \
-	'{"enabled" = 0;"name" = "MESSAGES";}' \
-	'{"enabled" = 0;"name" = "CONTACT";}' \
-	'{"enabled" = 0;"name" = "EVENT_TODO";}' \
-	'{"enabled" = 0;"name" = "IMAGES";}' \
-	'{"enabled" = 0;"name" = "BOOKMARKS";}' \
-	'{"enabled" = 0;"name" = "MUSIC";}' \
-	'{"enabled" = 0;"name" = "MOVIES";}' \
-	'{"enabled" = 0;"name" = "PRESENTATIONS";}' \
-	'{"enabled" = 0;"name" = "SPREADSHEETS";}' \
-	'{"enabled" = 0;"name" = "SOURCE";}' \
-	'{"enabled" = 0;"name" = "MENU_DEFINITION";}' \
-	'{"enabled" = 0;"name" = "MENU_OTHER";}' \
-	'{"enabled" = 0;"name" = "MENU_CONVERSION";}' \
-	'{"enabled" = 0;"name" = "MENU_EXPRESSION";}' \
-	'{"enabled" = 0;"name" = "MENU_WEBSEARCH";}' \
-	'{"enabled" = 0;"name" = "MENU_SPOTLIGHT_SUGGESTIONS";}'
-# Load new settings before rebuilding the index
-killall mds > /dev/null 2>&1
-# Make sure indexing is enabled for the main volume
-sudo mdutil -i on / > /dev/null
-# Rebuild the index from scratch
-sudo mdutil -E / > /dev/null
-
-###############################################################################
 # Terminal & iTerm 2                                                          #
 ###############################################################################
 
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 # Install iTerm2 themes
-open "${HOME}/.dotfiles/.iterm2/Solarized Dark.itermcolors"
-open "${HOME}/.dotfiles/.iterm2/LondonTube.itermcolors"
+# open "${HOME}/.dotfiles/.iterm2/Solarized Dark.itermcolors"
+# open "${HOME}/.dotfiles/.iterm2/LondonTube.itermcolors"
 # Don’t display the annoying prompt when quitting iTerm
-defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+# defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 ###############################################################################
 # Time Machine                                                                #
@@ -427,7 +383,7 @@ defaults write org.m0k.transmission WarningDonate -bool false
 defaults write org.m0k.transmission WarningLegal -bool false
 
 ###############################################################################
-# Network, VPN, Active Directory & Time Services															#
+# Network, VPN, Active Directory & Time Services			      #
 ###############################################################################
 killall cfprefsd
 sudo killall cupsd

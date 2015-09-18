@@ -5,21 +5,21 @@ sudo bash ${BASEDIR}/.ntp/install.sh
 # homesbrew
 bash ${BASEDIR}/.homebrew/install.sh
 # python
-bash ${BASEDIR}/.python/install.sh
+#bash ${BASEDIR}/.python/install.sh
 # atom
-ln -s ${BASEDIR}/.atom.symlink ~/.atom
+#ln -s ${BASEDIR}/.atom.symlink ~/.atom
 # vimfiles
-ln -s ${BASEDIR}/.vimfiles/.vimrc ~/.vimrc
+#ln -s ${BASEDIR}/.vimfiles/.vimrc ~/.vimrc
 # osx
 bash ${BASEDIR}/.osx/set-defaults.sh
 # Powerline
-bash ${BASEDIR}/.powerline/install.sh
+# bash ${BASEDIR}/.powerline/install.sh
 # iTerm2
-rm ~/Library/Preferences/com.googlecode.iterm2.plist
-ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+# rm ~/Library/Preferences/com.googlecode.iterm2.plist
+# ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 # Vagrant
-ln -s ${BASEDIR}/.dotfiles/.vagrant.d ~/.vagrant.d
-ln -s ${BASEDIR}/.dotfiles/.vagrant.d ~/Vagrant
+# ln -s ${BASEDIR}/.dotfiles/.vagrant.d ~/.vagrant.d
+# ln -s ${BASEDIR}/.dotfiles/.vagrant.d ~/Vagrant
 # zsh
 bash ${BASEDIR}/.zshrc/install.sh
 rm ~/.zshrc
