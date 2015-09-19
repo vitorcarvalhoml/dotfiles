@@ -1,4 +1,4 @@
-# Lucazz's Dotfiles
+# Dotfiles
 
 ## Overview
 
@@ -11,6 +11,6 @@ You don't. [Dotfiles Are Not Meant to Be Forked](http://www.anishathalye.com/201
 But, if you do:
 
     $ xcode-select --install
-    $ git clone https://github.com/lucazz/dotfiles.git  ~/.dotfiles
+    $ git clone git@github.com:vitorcarvalhoml/dotfiles.git ~/.dotfiles
     $ cd .dotfiles
     $ ./install
