@@ -53,6 +53,7 @@ brew cask install slack
 brew cask install the-unarchiver
 # brew cask install cinch
 # brew cask install dropbox
+brew cask install google-drive
 brew cask install transmission
 brew cask install evernote
 # brew cask install vlc
