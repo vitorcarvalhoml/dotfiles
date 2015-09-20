@@ -9,8 +9,10 @@ bash ${BASEDIR}/.homebrew/install.sh
 # atom
 #ln -s ${BASEDIR}/.atom.symlink ~/.atom
 # vimfiles
-#ln -s ${BASEDIR}/.vimfiles/.vimrc ~/.vimrc
+ln -s ${BASEDIR}/.vim/.vimrc ~/.vimrc
 # osx
+wget https://gist.githubusercontent.com/brandonb927/3195465/raw/2132357b6bb098b06b0419d7fc73d5c39054441d/osx-for-hackers.sh -O ${BASEDIR}/.osx/osx-for-hackers.sh
+bash ${BASEDIR}/.osx/osx-for-hackers.sh
 bash ${BASEDIR}/.osx/set-defaults.sh
 # Powerline
 # bash ${BASEDIR}/.powerline/install.sh
@@ -18,7 +20,7 @@ bash ${BASEDIR}/.osx/set-defaults.sh
 # rm ~/Library/Preferences/com.googlecode.iterm2.plist
 # ln -s ${BASEDIR}/.iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 # Vagrant
-# ln -s ${BASEDIR}/.dotfiles/.vagrant.d ~/.vagrant.d
+ln -s ${BASEDIR}/.vagrant.d ~/.vagrant.d
 # ln -s ${BASEDIR}/.dotfiles/.vagrant.d ~/Vagrant
 # zsh
 bash ${BASEDIR}/.zshrc/install.sh

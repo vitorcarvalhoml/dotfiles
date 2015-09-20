@@ -16,12 +16,12 @@ plugins=(git git-flow python vagrant)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh > /dev/null 2>&1
-#env vars
+# env vars
 source ~/.dotfiles/.env/.env.zsh > /dev/null 2>&1
-#aliases
+# aliases
 source ~/.dotfiles/.alias/.alias.zsh > /dev/null 2>&1
-#functions
-source ~/.dotfiles/.functions/.extract.zsh > /dev/null 2>&1
-#awscli
-source /usr/local/share/zsh/site-functions/_aws > /dev/null 2>&1
-complete -C aws_completer aws > /dev/null 2>&1
+# functions
+# source ~/.dotfiles/.functions/.extract.zsh > /dev/null 2>&1
+# awscli
+# source /usr/local/share/zsh/site-functions/_aws > /dev/null 2>&1
+# complete -C aws_completer aws > /dev/null 2>&1
