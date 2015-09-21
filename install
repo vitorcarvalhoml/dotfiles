@@ -26,3 +26,7 @@ ln -s ${BASEDIR}/.vagrant.d ~/.vagrant.d
 bash ${BASEDIR}/.zshrc/install.sh
 rm ~/.zshrc
 ln -s ${BASEDIR}/.zshrc/.zshrc ~/.zshrc
+
+# npm packages
+bash -p ${HOME}/.npm/install.sh
+ln -s ${BASEDIR}/.npm/.npmrc ~/.npmrc
