@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"GitGutter",
+		"LaTeXTools",
+		"Markdown Preview",
+		"Package Control",
+		"Project Manager",
+		"Python PEP8 Autoformat",
+		"SFTP",
+		"SublimeLinter",
+		"Theme - Solarized Flat",
+		"Vintageous"
+	]
+}

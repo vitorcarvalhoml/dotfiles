@@ -12,7 +12,7 @@ HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
 
 # Loading plugins
-plugins=(git git-flow python vagrant)
+plugins=(git git-flow python vagrant laravel)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh > /dev/null 2>&1
