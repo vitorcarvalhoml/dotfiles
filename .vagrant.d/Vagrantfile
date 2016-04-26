@@ -42,7 +42,7 @@ Vagrant.configure(2) do |config|
 
     win7_config.vm.synced_folder "/Users/vitor/Projects/", "/projects"
     win7_config.vm.synced_folder "/Users/vitor/Games/", "/games"
-    win7_config.vm.synced_folder "/Users/vitor/Drive/Cotidiano/logica-de-programacao/", "/logica-de-programacao"
+    win7_config.vm.synced_folder "/Users/vitor/Drive/Cotidiano/protocolo-servicos-de-redes/", "/protocolo-servicos-de-rede"
 
     win7_config.vm.provider "virtualbox" do |vb| 
       vb.gui = true # enable for first run
