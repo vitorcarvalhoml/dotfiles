@@ -44,19 +44,15 @@ brew tap caskroom/cask
 brew install brew-cask
 brew cask install firefox 
 brew cask install little-snitch
-open -a /opt/homebrew-cask/Caskroom/little-snitch/3.5.3/Little\ Snitch\ Installer.app
-# brew cask install lastpass
-# open -a /opt/homebrew-cask/Caskroom/lastpass/latest/LastPass\ Installer.app/
+open -a /opt/homebrew-cask/Caskroom/little-snitch/3.6.2/Little\ Snitch\ Installer.app
 brew cask install alfred
-# brew cask install sublime-text3
+brew cask install sublime-text3
 brew cask install slack
 brew cask install the-unarchiver
-# brew cask install cinch
-# brew cask install dropbox
 brew cask install google-drive
 brew cask install transmission
 brew cask install evernote
-# brew cask install vlc
+brew cask install vlc
 brew cask install screenhero
 brew cask install virtualbox
 brew cask install vagrant
