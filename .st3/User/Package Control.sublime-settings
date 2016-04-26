@@ -6,14 +6,14 @@
 	"installed_packages":
 	[
 		"GitGutter",
+		"Indent XML",
 		"LaTeXTools",
 		"Markdown Preview",
 		"Package Control",
+		"Predawn",
 		"Project Manager",
 		"Python PEP8 Autoformat",
 		"SFTP",
-		"SublimeLinter",
-		"Theme - Solarized Flat",
 		"Vintageous"
 	]
 }

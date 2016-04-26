@@ -1,8 +1,12 @@
 {
-	"color_scheme": "Packages/Theme - Solarized Flat/Solarized Flat.tmTheme",
+	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"theme": "Solarized Flat.sublime-theme"
+	"predawn_findreplace_samll": true,
+	"predawn_quick_panel_small": true,
+	"predawn_tabs_small": true,
+	"theme": "predawn.sublime-theme"
 }
