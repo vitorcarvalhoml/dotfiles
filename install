@@ -1,17 +1,20 @@
 #!/bin/bash
+
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # ntp.br
 sudo bash ${BASEDIR}/.ntp/install.sh
+
 # homesbrew
 bash ${BASEDIR}/.homebrew/install.sh
+
 # vimfiles
 ln -s ${BASEDIR}/.vim/.vimrc ~/.vimrc
+
 # osx
 wget https://gist.githubusercontent.com/brandonb927/3195465/raw/2132357b6bb098b06b0419d7fc73d5c39054441d/osx-for-hackers.sh -O ${BASEDIR}/.osx/osx-for-hackers.sh
 bash ${BASEDIR}/.osx/osx-for-hackers.sh
-# Vagrant
-ln -s ${BASEDIR}/.vagrant.d ~/.vagrant.d
-ln -s ${BASEDIR}/.dotfiles/.vagrant.d ~/Vagrant
+
 # zsh
 bash ${BASEDIR}/.zshrc/install.sh
 rm ~/.zshrc
