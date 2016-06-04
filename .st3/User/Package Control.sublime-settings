@@ -1,0 +1,21 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Git",
+		"GitGutter",
+		"Indent XML",
+		"LaTeXTools",
+		"Markdown Preview",
+		"Package Control",
+		"Predawn",
+		"Project Manager",
+		"Python PEP8 Autoformat",
+		"SFTP",
+		"Terraform",
+		"Vintageous"
+	]
+}

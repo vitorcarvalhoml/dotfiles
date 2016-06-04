@@ -1,0 +1,601 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/vitor/Projects/svf-digitalocean/main.tf",
+			"settings":
+			{
+				"buffer_size": 209,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/vitor/Projects/svf-digitalocean/files/initial-setup.sh",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/vitor/Projects/svf-digitalocean/variables.tf",
+			"settings":
+			{
+				"buffer_size": 582,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/vitor/Projects/svf-digitalocean/outputs.tf",
+			"settings":
+			{
+				"buffer_size": 76,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 93.0,
+		"last_filter": "sideb",
+		"selected_items":
+		[
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"syntax terra",
+				"Set Syntax: Terraform"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"set synt js",
+				"Set Syntax: JSON"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"minima",
+				"View: Toggle Minimap"
+			]
+		],
+		"width": 507.0
+	},
+	"console":
+	{
+		"height": 145.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/vitor/Projects/svf-digitalocean"
+	],
+	"file_history":
+	[
+		"/Users/vitor/Movies/legendas_tv_20140720220231/Una Pistola en Cada Mano (2012)[dvdrip][spanish][AC3-5.1].srt",
+		"/Users/vitor/Projects/trixlog-project/main.tf",
+		"/Users/vitor/Projects/sis-os/config/app.php",
+		"/Users/vitor/Projects/sis-os/database/seeds/ClientsTableSeeder.php",
+		"/Users/vitor/Projects/sis-os/gulpfile.js",
+		"/Users/vitor/Projects/sis-os/public/assets/js/order.js",
+		"/Users/vitor/Projects/sis-os/public/assets/js/sisos.typeahead.js",
+		"/Users/vitor/Projects/sis-os/config/database.php",
+		"/Users/vitor/Projects/sis-os/.env",
+		"/Users/vitor/Projects/sis-os/sftp-config.json",
+		"/Users/vitor/Projects/service.nextsaude.dado/InformStateWindow.py",
+		"/Users/vitor/Projects/service.nextsaude.dado/resources/lib/DadoWebService.py",
+		"/Users/vitor/Projects/service.nextsaude.dado/DadoWindow.py",
+		"/Users/vitor/Projects/service.nextsaude.dado/resources/lib/config.py",
+		"/Users/vitor/Projects/service.nextsaude.dado/sftp-config.json",
+		"/Users/vitor/Drive/Projetos/NextSAUDE/UML/dado-diagram-sequence.planttext",
+		"/Users/vitor/Drive/Projetos/NextSAUDE/UML/dado.planttext",
+		"/Users/vitor/Drive/Projetos/NextSAUDE/UML/basico",
+		"/Users/vitor/Projects/service.nextsaude.sensors/main.py",
+		"/Users/vitor/Projects/service.nextsaude.sensors/sftp-config.json",
+		"/Users/vitor/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/vitor/Projects/nginx-base/simple-php",
+		"/Users/vitor/Projects/dissertacao/capitulos/introducao.tex",
+		"/Users/vitor/Projects/dissertacao/informacoes.tex",
+		"/Users/vitor/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/Users/vitor/Projects/dissertacao/dissertacao.tex",
+		"/Users/vitor/Library/Application Support/Sublime Text 3/Packages/User/LaTeXTools.sublime-settings"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 154.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"image",
+			"do_region",
+			"nyc2",
+			"region",
+			"digitalocean",
+			"public",
+			"do_token",
+			"mix",
+			"order",
+			"typeahead",
+			"resources",
+			"secret",
+			"homestead",
+			"showPanicNow",
+			"parse",
+			"process",
+			"result",
+			"observe",
+			"sintoms",
+			"user",
+			"human",
+			"panic",
+			"                                                                                                                       ",
+			"                                                                                                                      ",
+			"                                                                                                                     ",
+			"                                                                                                                    ",
+			"                                                                                                                   ",
+			"                                                                                                                  ",
+			"                                                                                                                 ",
+			"                                                                                                                ",
+			"                                                                                                               ",
+			"                                                                                                              ",
+			"                                                                                                             ",
+			"                                                                                                            ",
+			"                                                                                                           ",
+			"                                                                                                          ",
+			"                                                                                                         ",
+			"                                                                                                        ",
+			"                                                                                                       ",
+			"                                                                                                      ",
+			"                                                                                                     ",
+			"                                                                                                    ",
+			"                                                                                                   ",
+			"                                                                                                  ",
+			"                                                                                                 ",
+			"                                                                                                ",
+			"                                                                                               ",
+			"                                                                                              ",
+			"                                                                                             ",
+			"                                                                                            ",
+			"                                                                                           ",
+			"                                                                                          ",
+			"                                                                                         ",
+			"                                                                                        ",
+			"                                                                                       ",
+			"                                                                                      ",
+			"                                                                                     ",
+			"                                                                                    ",
+			"                                                                                   ",
+			"                                                                                  ",
+			"                                                                                 ",
+			"                                                                                ",
+			"                                                                               ",
+			"                                                                              ",
+			"                                                                             ",
+			"                                                                            ",
+			"                                                                           ",
+			"                                                                          ",
+			"                                                                         ",
+			"                                                                        ",
+			"                                                                       ",
+			"                                                                      ",
+			"                                                                     ",
+			"                                                                    ",
+			"                                                                   ",
+			"                                                                  ",
+			"                                                                 ",
+			"                                                                ",
+			"                                                               ",
+			"                                                              ",
+			"                                                             ",
+			"                                                            ",
+			"                                                           ",
+			"                                                          ",
+			"                                                         ",
+			"                                                        ",
+			"                                                       ",
+			"                                                      ",
+			"                                                     ",
+			"                                                    ",
+			"                                                   ",
+			"                                                  ",
+			"                                                 ",
+			"                                                ",
+			"                                               ",
+			"                                              ",
+			"                                             ",
+			"                                            ",
+			"                                           ",
+			"                                          ",
+			"                                         ",
+			"                                        ",
+			"                                       ",
+			"                                      ",
+			"                                     ",
+			"                                    ",
+			"                                   ",
+			"                                  ",
+			"                                 ",
+			"                                ",
+			"                               ",
+			"                              ",
+			"                             ",
+			"                            ",
+			"                           ",
+			"                          ",
+			"                         ",
+			"                        ",
+			"                       ",
+			"                      ",
+			"viewer",
+			"okular",
+			"preview"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/vitor/Projects/svf-digitalocean/main.tf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 209,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Terraform/Terraform.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/vitor/Projects/svf-digitalocean/files/initial-setup.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 16
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/vitor/Projects/svf-digitalocean/variables.tf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 582,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Terraform/Terraform.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/vitor/Projects/svf-digitalocean/outputs.tf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								58
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Terraform/Terraform.tmLanguage",
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 37
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 98.0
+	},
+	"pinned_build_system": "",
+	"project": "svf-digitalocean.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gulpe",
+				"gulpfile.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"in",
+				"resources/skins/default/720p/custom_serviceInformState.xml"
+			],
+			[
+				"dis",
+				"dissertacao.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+			"_cmdline_cd": "/Users/vitor/Projects/svf-digitalocean"
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
