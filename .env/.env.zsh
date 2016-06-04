@@ -2,7 +2,7 @@ echo ".env scripts"
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd )"
 export NPM_PACKAGES="${HOME}/.npm-packages"
 export NODE_PATH="$NPM_PACKAGES/lib/node_modules:$NODE_PATH"
-export LATEX_PATH=/usr/texbin
+export LATEX_PATH=/usr/local/texlive/2015/bin/x86_64-darwin
 
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$NPM_PACKAGES/bin:$LATEX_PATH:"
 export PATH="./bin:/usr/local/bin:/usr/local/sbin:$ZSH/bin:$PATH"
