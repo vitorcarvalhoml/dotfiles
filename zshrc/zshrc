@@ -12,14 +12,15 @@ HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
 
 # Loading plugins
-plugins=(git git-flow python vagrant laravel)
+plugins=(git git-flow python vagrant aws brew httpie osx screen)
 
 # User configuration
 source $ZSH/oh-my-zsh.sh > /dev/null 2>&1
 # env vars
-source ~/.dotfiles/.env/.env.zsh > /dev/null 2>&1
+source ~/.dotfiles/env/env.sh > /dev/null 2>&1
 # aliases
-source ~/.dotfiles/.alias/.alias.zsh > /dev/null 2>&1
+source ~/.dotfiles/alias/alias.sh > /dev/null 2>&1
+
 # functions
 # source ~/.dotfiles/.functions/.extract.zsh > /dev/null 2>&1
 # awscli

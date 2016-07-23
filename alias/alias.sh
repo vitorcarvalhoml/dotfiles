@@ -5,9 +5,6 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade --all; brew c
 # Flush Directory Service cache
 alias dnsflush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 
-# SSH entries
-alias ssh-pi="ssh -l alarm 192.168.25.101"
-
 # Simple tree
 alias tree="tree -C"
 alias t1="tree -L 1"

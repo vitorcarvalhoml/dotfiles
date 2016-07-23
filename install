@@ -22,9 +22,9 @@ wget https://gist.githubusercontent.com/brandonb927/3195465/raw/2132357b6bb098b0
 bash ${BASEDIR}/.osx/osx-for-hackers.sh
 
 # zsh
-bash ${BASEDIR}/.zshrc/install.sh
+bash ${BASEDIR}/zshrc/install.sh
 rm ~/.zshrc
-ln -s ${BASEDIR}/.zshrc/.zshrc ~/.zshrc
+ln -s ${BASEDIR}/zshrc/zshrc ~/.zshrc
 
 # npm packages
 bash -p ${HOME}/.npm/install.sh
