@@ -7,6 +7,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/vitor/Drive/Mestrado/Pesquisa/ieee-healthcom/ieee-healthcom.tex",
+			"settings":
+			{
+				"buffer_size": 20968,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/vitor/Drive/Mestrado/Pesquisa/ieee-healthcom/ieee-healthcom.bib",
+			"settings":
+			{
+				"buffer_size": 39651,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
@@ -39,10 +55,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 159.0,
-		"last_filter": "set synt js",
+		"height": 93.0,
+		"last_filter": "remove projet",
 		"selected_items":
 		[
+			[
+				"remove projet",
+				"Project Manager: Remove Dead Projects"
+			],
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"set synt js",
 				"Set Syntax: JSON"
@@ -58,10 +86,6 @@
 			[
 				"git stat",
 				"Git: Status"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"sideb",
@@ -97,12 +121,32 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/vitor/Projects/dissertacao",
-		"/Users/vitor/Projects/dissertacao/capitulos"
+		"/Users/vitor/Drive/Mestrado/Pesquisa/ieee-healthcom"
 	],
 	"file_history":
 	[
+		"/Users/vitor/Drive/Projetos/NextSAUDE/UML/alert.planttext",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/echo-sublime.php",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap1.tex",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap2.tex",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/echo-com-comentarios.php",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/pacotes.tex",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/instalacao-apache.sh",
 		"/Users/vitor/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/echo.php",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/conclusao.tex",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/capitulo-exemplo.tex",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/apendices/apendice-a.tex",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-modelo.sty",
+		"/Users/vitor/Projects/skin/skin.nextsaude/720p/custom_Nextsaude.xml",
+		"/Users/vitor/Projects/skin/skin.nextsaude/sftp-config.json",
+		"/Users/vitor/Projects/service.nextsaude.dado/resources/lib/config.py",
+		"/Users/vitor/Projects/service.nextsaude.dado/sftp-config.json",
+		"/Users/vitor/Drive/Projetos/NextSAUDE/UML/dado-diagram-sequence.planttext",
+		"/Users/vitor/Drive/Projetos/NextSAUDE/UML/dado.planttext",
+		"/Users/vitor/Drive/Projetos/NextSAUDE/UML/basico",
+		"/Users/vitor/Projects/service.nextsaude.sensors/main.py",
+		"/Users/vitor/Projects/service.nextsaude.sensors/sftp-config.json",
 		"/Users/vitor/Projects/nginx-base/simple-php",
 		"/Users/vitor/Projects/dissertacao/capitulos/introducao.tex",
 		"/Users/vitor/Projects/dissertacao/informacoes.tex",
@@ -112,7 +156,7 @@
 	],
 	"find":
 	{
-		"height": 54.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -126,6 +170,45 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"contacts",
+			"figurasimples",
+			"multicol",
+			"cd",
+			"url",
+			"programa",
+			"sublime",
+			" ",
+			"begin",
+			"simples",
+			"texttt",
+			"php",
+			"language=php",
+			"bash",
+			"php",
+			"mystyle",
+			"tt",
+			"ttfamily",
+			"texttt",
+			"enumerate",
+			"site",
+			"dir",
+			"geometry",
+			"bash",
+			"função",
+			"firefox",
+			"ref",
+			"apache",
+			"nginx",
+			"xfceterminal",
+			"\\php ",
+			"parse",
+			"process",
+			"result",
+			"observe",
+			"sintoms",
+			"user",
+			"human",
+			"panic",
 			"                                                                                                                       ",
 			"                                                                                                                      ",
 			"                                                                                                                     ",
@@ -214,19 +297,7 @@
 			"                                  ",
 			"                                 ",
 			"                                ",
-			"                               ",
-			"                              ",
-			"                             ",
-			"                            ",
-			"                           ",
-			"                          ",
-			"                         ",
-			"                        ",
-			"                       ",
-			"                      ",
-			"viewer",
-			"okular",
-			"preview"
+			"                               "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -244,8 +315,103 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/vitor/Drive/Mestrado/Pesquisa/ieee-healthcom/ieee-healthcom.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20132,
+								20132
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 19
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 10011.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/vitor/Drive/Mestrado/Pesquisa/ieee-healthcom/ieee-healthcom.bib",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2745,
+								2769
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LaTeX/Bibtex.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_visual",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1069.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -290,10 +456,10 @@
 	},
 	"output.sftp":
 	{
-		"height": 0.0
+		"height": 98.0
 	},
 	"pinned_build_system": "",
-	"project": "dissertacao.sublime-project",
+	"project": "ieee-healthcom.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -305,6 +471,38 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"cap1",
+				"capitulos/cap1.tex"
+			],
+			[
+				"paco",
+				"utils/pacotes.tex"
+			],
+			[
+				"pacote",
+				"utils/pacotes.tex"
+			],
+			[
+				"apendice",
+				"apendices/apendice-a.tex"
+			],
+			[
+				"pacot",
+				"utils/pacotes.tex"
+			],
+			[
+				"modelo",
+				"utils/ejovem-modelo.sty"
+			],
+			[
+				"progra",
+				"utils/ejovem-programacao-web.sty"
+			],
+			[
+				"nextsaude",
+				"skin.nextsaude/720p/custom_Nextsaude.xml"
+			],
 			[
 				"dis",
 				"dissertacao.tex"
@@ -333,10 +531,8 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/opt/homebrew-cask/Caskroom/sublime-text3/3103/Sublime Text.app/Contents/MacOS"
 		}
 	},
 	"show_minimap": false,

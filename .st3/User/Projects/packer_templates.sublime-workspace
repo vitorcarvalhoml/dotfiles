@@ -4,18 +4,6 @@
 		"selected_items":
 		[
 			[
-				"for",
-				"for	for …"
-			],
-			[
-				"print",
-				"print_r"
-			],
-			[
-				"array",
-				"array"
-			],
-			[
 				"valor_fal",
 				"valor_falso_exemplo_1"
 			]
@@ -23,58 +11,10 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/main.tex",
-			"settings":
-			{
-				"buffer_size": 6584,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap6.tex",
-			"settings":
-			{
-				"buffer_size": 11142,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-programacao-web.sty",
-			"settings":
-			{
-				"buffer_size": 4280,
-				"line_ending": "Unix"
-			}
-		}
 	],
-	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Packages/Vintageous/Vintageous.sublime-build",
-					""
-				],
-				[
-					"Packages/Vintageous/Vintageous.sublime-build",
-					"Vintageous - Test (All)"
-				],
-				[
-					"Packages/Vintageous/Vintageous.sublime-build",
-					"Vintageous - Test (This File Only)"
-				],
-				[
-					"Packages/LaTeXTools/LaTeX.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/LaTeXTools/LaTeX.sublime-build",
-				""
-			]
-		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -173,37 +113,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii"
+		"/Users/vitor/Projects/packer-templates",
+		"/Users/vitor/Projects/packer-templates/virtualbox/conf"
 	],
 	"file_history":
 	[
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap5.tex",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-19.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-4.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/main.tex",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap6.tex",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-11.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-12.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-13.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-5.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-6.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-7.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-8.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-9.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-10.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-15.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-14.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-3.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/estruturas-foreach-1.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/estruturas-for-2.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/estruturas-do-while-1.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-modelo.sty",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-programacao-web.sty",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/pacotes.tex",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/estruturas-while-2.php",
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/cap5-desafio-rapido-1.php",
+		"/Users/vitor/Projects/packer-templates/virtualbox/Vagrantfile",
+		"/Users/vitor/Projects/packer-templates/virtualbox/conf/conf.yml",
+		"/Users/vitor/Projects/packer-templates/base.json",
+		"/Users/vitor/Projects/packer-templates/files/tmp.sh",
+		"/Users/vitor/Projects/packer_templates/files/tmp.sh",
+		"/Users/vitor/Projects/packer_templates/virtualbox/Vagrantfile",
+		"/Users/vitor/Library/Application Support/Sublime Text 3/Packages/User/Projects/packer_templates.sublime-project",
+		"/Users/vitor/Projects/packer_templates/scripts/update.sh",
+		"/Users/vitor/Projects/packer_templates/virtualbox/conf/conf.yml",
+		"/Users/vitor/Projects/packer_templates/base.json",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap4.tex",
 		"/Users/vitor/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-modelo.sty",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/estruturas-if-3.php",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/operadores-condicional-ternario-1.php",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/operadores-condicional-ternario-2.php",
@@ -229,6 +156,7 @@
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/operadores-atribuicao-combinada-1.php",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap2.tex",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap3.tex",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-programacao-web.sty",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/conversao-2.php",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/conversao-1.php",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/constantes-define-2.php",
@@ -238,6 +166,7 @@
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/variaveis-string.php",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/tabelas/tabela-cap3-tipo-string.tex",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/variaveis-booleano-1.php",
+		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/pacotes.tex",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/settings-user.json",
 		"/Users/vitor/Drive/Projetos/NextSAUDE/UML/alert.planttext",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/echo-sublime.php",
@@ -280,99 +209,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"nome",
-			"novo_alunos",
-			"dica",
-			"detalhado",
-			"print",
-			"arrays",
-			"float",
-			"tem",
-			"gettype",
-			"ordenação",
-			"elemento",
-			"$k",
-			"$i",
-			"i",
-			"linha",
-			"elemento",
-			"acessando",
-			"linha",
-			"primeira",
-			"variavel",
-			"Sintaxe",
-			"multidimensional",
-			"array",
-			"elemento_11",
-			"elemento_10",
-			"elemento_02",
-			"elemento_01",
-			"elemento_00",
-			"segunda",
-			"multidimensional",
-			"multidimensionais",
-			"informacoes",
-			"resultado",
-			"Acessando",
-			"chave",
-			"variavel_tipo_array",
-			"informacoes",
-			"cidade",
-			"array",
-			"informações",
-			"nome",
-			"Nome",
-			"Alice",
-			"Maria",
-			"Joaquim",
-			"estruturas",
-			"continue",
-			"definí",
-			"break",
-			"value",
-			"key",
-			"variable",
-			"caracterese",
-			"nomes",
-			"elemento",
-			"value",
-			"key",
-			"Estruturas",
-			"atualizacao",
-			"condicao",
-			"inicializacao",
-			"incremento",
-			"code",
-			"begin",
-			"echo",
-			"string",
-			"case",
-			"numero",
-			"loop",
-			"begin",
-			"comandowhile",
-			"condicao",
-			"Sintaxe",
-			"code",
-			"repetitivamente",
-			"case",
-			"break",
-			"default",
-			"switch",
-			"break",
-			"\\texttt{case}",
-			"break",
-			"case",
-			"break",
-			"case",
-			"segundo",
-			"switch",
-			"var",
-			"variable",
-			"value",
-			"especifica",
-			"SWITCH",
-			"switch",
+			"07e4bb5569814eab41fafac882ba127893e3ff0bdb7ec931c9b2d040e3e94e7a",
+			"hostmanager",
+			"appserver_",
 			"figuradupla",
 			"utilize",
 			"menor",
@@ -407,7 +246,97 @@
 			"noivo",
 			"conjuncao",
 			"and",
-			"True"
+			"True",
+			"Falso",
+			"Verdadeiro",
+			"esta",
+			"_chovendo",
+			"negacao",
+			"negação",
+			"not",
+			"texttt",
+			"operadores",
+			"Operadores",
+			"Descrição",
+			"Nome",
+			"relacionais",
+			"booleano",
+			"Menor",
+			"Diferente",
+			"Idêntico",
+			"Igualdade",
+			"nascimento",
+			"Nascimento",
+			"esse",
+			"\\\\ \\h",
+			" \\\\ ",
+			"expressões",
+			"expres",
+			"Resulta",
+			"topo",
+			"centralizado",
+			"\\true~ ",
+			"\\\\ f",
+			"\\\\ ",
+			"\\omit",
+			"maior",
+			"variáveis",
+			"Símbolo",
+			"Operadores",
+			"Comparadores",
+			"aritmeticos",
+			"operadores",
+			"nota2",
+			"nota1",
+			"preco",
+			"incremento",
+			"exercicios",
+			"Exercícios",
+			"combinados",
+			"aritmeticos",
+			"Aritméticos",
+			"atribuicao",
+			"aritmeticos",
+			"Multiplica",
+			"Operador",
+			"peso",
+			"combinado",
+			"\\php ",
+			"php",
+			"artimeticos",
+			"conversao",
+			"Divisão",
+			"Adição",
+			"Multiplicação",
+			"Operador",
+			"Significado",
+			"Sintaxe",
+			"matemáticos",
+			"sobrenome",
+			"id",
+			"responsive",
+			"Sobrenome",
+			"Nome",
+			"conversao",
+			"matemáticos",
+			"Variáveis",
+			"variáveis",
+			"Variáveis",
+			"string",
+			"typeset",
+			"transformações",
+			"transformação",
+			"transformações",
+			"transforme",
+			"Significado",
+			"define",
+			"echo",
+			"inteiro",
+			"null",
+			"array~",
+			"string",
+			"include",
+			"false"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -425,155 +354,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/main.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6584,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5899,
-								5899
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_non_interactive": false,
-								"_vintageous_processing_notation": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 3262.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap6.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9038,
-								9038
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 54
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 3413.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-programacao-web.sty",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3360,
-								3360
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LaTeX/TeX.sublime-syntax",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 38
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 1012.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 54.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -610,20 +398,12 @@
 	{
 		"height": 0.0
 	},
-	"output.git":
-	{
-		"height": 122.0
-	},
-	"output.latextools":
-	{
-		"height": 98.0
-	},
 	"output.sftp":
 	{
 		"height": 98.0
 	},
 	"pinned_build_system": "",
-	"project": "modelo-apostila-mdii.sublime-project",
+	"project": "packer_templates.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -635,98 +415,6 @@
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"cap6.tex",
-				"capitulos/cap6.tex"
-			],
-			[
-				"cap5.",
-				"capitulos/cap5.tex"
-			],
-			[
-				"main.tex",
-				"main.tex"
-			],
-			[
-				"array-13",
-				"codigos/array-13.php"
-			],
-			[
-				"array-12",
-				"codigos/array-12.php"
-			],
-			[
-				"array-11",
-				"codigos/array-11.php"
-			],
-			[
-				"array-10",
-				"codigos/array-10.php"
-			],
-			[
-				"array-9",
-				"codigos/array-9.php"
-			],
-			[
-				"array-8",
-				"codigos/array-8.php"
-			],
-			[
-				"array-7",
-				"codigos/array-7.php"
-			],
-			[
-				"array-6",
-				"codigos/array-6.php"
-			],
-			[
-				"array-5",
-				"codigos/array-5.php"
-			],
-			[
-				"array-4",
-				"codigos/array-4.php"
-			],
-			[
-				"cap5.tex",
-				"capitulos/cap5.tex"
-			],
-			[
-				"array-14",
-				"codigos/array-14.php"
-			],
-			[
-				"cap5.te",
-				"capitulos/cap5.tex"
-			],
-			[
-				"array-3",
-				"codigos/array-3.php"
-			],
-			[
-				"estruturas-for-2",
-				"codigos/estruturas-for-2.php"
-			],
-			[
-				"estruturas-foreac",
-				"codigos/estruturas-foreach-1.php"
-			],
-			[
-				"foreach",
-				"codigos/estruturas-foreach-1.php"
-			],
-			[
-				"ejo",
-				"utils/ejovem-programacao-web.sty"
-			],
-			[
-				"paco",
-				"utils/pacotes.tex"
-			],
-			[
-				"cap4.",
-				"capitulos/cap4.tex"
-			],
 			[
 				"cap4.tex",
 				"capitulos/cap4.tex"
@@ -784,6 +472,10 @@
 				"capitulos/cap1.tex"
 			],
 			[
+				"paco",
+				"utils/pacotes.tex"
+			],
+			[
 				"pacote",
 				"utils/pacotes.tex"
 			],
@@ -831,14 +523,10 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "desafio rápido",
-		"_vintageous_last_buffer_search_command": "vi_slash",
-		"_vintageous_last_char_search_command": "vi_t",
-		"_vintageous_last_character_search": "i",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii"
+			"_cmdline_cd": "/Users/vitor/Projects/packer-templates/virtualbox"
 		}
 	},
 	"show_minimap": false,

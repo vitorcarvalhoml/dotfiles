@@ -24,26 +24,26 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/main.tex",
+			"file": "/Users/vitor/Drive/Mestrado/Pesquisa/web-media/webmedia.tex",
 			"settings":
 			{
-				"buffer_size": 6584,
+				"buffer_size": 27217,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Users/vitor/Drive/Mestrado/Pesquisa/web-media/ieee-healthcom.tex",
+			"settings":
+			{
+				"buffer_size": 30126,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap6.tex",
+			"file": "/Users/vitor/Drive/Mestrado/Pesquisa/web-media/webmedia.bib",
 			"settings":
 			{
-				"buffer_size": 11142,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-programacao-web.sty",
-			"settings":
-			{
-				"buffer_size": 4280,
+				"buffer_size": 2207,
 				"line_ending": "Unix"
 			}
 		}
@@ -79,10 +79,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 115.0,
-		"last_filter": "",
+		"height": 368.0,
+		"last_filter": "project",
 		"selected_items":
 		[
+			[
+				"project",
+				"Project Manager: Add Project"
+			],
 			[
 				"diction",
 				"Dictionaries: Set Language"
@@ -114,10 +118,6 @@
 			[
 				"remove projet",
 				"Project Manager: Remove Dead Projects"
-			],
-			[
-				"project",
-				"Project: Save As"
 			],
 			[
 				"install",
@@ -173,10 +173,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii"
+		"/Users/vitor/Drive/Mestrado/Pesquisa/web-media"
 	],
 	"file_history":
 	[
+		"/Users/vitor/Drive/Mestrado/Pesquisa/web-media/ieee-healthcom-old.bib",
+		"/Users/vitor/Drive/Mestrado/Pesquisa/ieee-healthcom/ieee-healthcom.bib",
+		"/Users/vitor/Drive/Mestrado/Pesquisa/web-media/sig-alternate-sample.tex",
+		"/Users/vitor/Drive/Mestrado/Pesquisa/web-media/ieee-healthcom.bib",
+		"/Users/vitor/Drive/Mestrado/Pesquisa/web-media/ieee-healthcom.bbl",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap5.tex",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-19.php",
 		"/Users/vitor/Projects/ejovem/modelo-apostila-mdii/codigos/array-4.php",
@@ -280,6 +285,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"patient’s",
+			"Seattle",
+			"\\item",
 			"nome",
 			"novo_alunos",
 			"dica",
@@ -404,10 +412,7 @@
 			"Falso",
 			"presente",
 			"_presente",
-			"noivo",
-			"conjuncao",
-			"and",
-			"True"
+			"noivo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -430,19 +435,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/main.tex",
+					"file": "/Users/vitor/Drive/Mestrado/Pesquisa/web-media/webmedia.tex",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6584,
+						"buffer_size": 27217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5899,
-								5899
+								11988,
+								11988
 							]
 						],
 						"settings":
@@ -451,12 +456,108 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"translate_tabs_to_spaces": false,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
 								"_vintageous_glue_until_normal_mode": false,
 								"_vintageous_non_interactive": false,
 								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 0
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 4796.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/vitor/Drive/Mestrado/Pesquisa/web-media/ieee-healthcom.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 30126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18386,
+								17452
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 11
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 7801.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/vitor/Drive/Mestrado/Pesquisa/web-media/webmedia.bib",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/LaTeXTools/BibLaTeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
 								"action": null,
 								"action_count": "",
 								"mode": "mode_normal",
@@ -470,99 +571,7 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 3262.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/capitulos/cap6.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9038,
-								9038
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 54
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 3413.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii/utils/ejovem-programacao-web.sty",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4280,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3360,
-								3360
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/LaTeX/TeX.sublime-syntax",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 38
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 1012.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -573,7 +582,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 54.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -602,17 +611,9 @@
 		]
 	},
 	"menu_visible": true,
-	"output.exec":
-	{
-		"height": 163.0
-	},
 	"output.find_results":
 	{
 		"height": 0.0
-	},
-	"output.git":
-	{
-		"height": 122.0
 	},
 	"output.latextools":
 	{
@@ -623,7 +624,7 @@
 		"height": 98.0
 	},
 	"pinned_build_system": "",
-	"project": "modelo-apostila-mdii.sublime-project",
+	"project": "web-media.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -831,14 +832,10 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "desafio rápido",
-		"_vintageous_last_buffer_search_command": "vi_slash",
-		"_vintageous_last_char_search_command": "vi_t",
-		"_vintageous_last_character_search": "i",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/vitor/Projects/ejovem/modelo-apostila-mdii"
+			"_cmdline_cd": "/Users/vitor/Drive/Mestrado/Pesquisa/web-media"
 		}
 	},
 	"show_minimap": false,

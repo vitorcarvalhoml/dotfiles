@@ -1,6 +1,8 @@
 {
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Predawn/predawn.tmTheme",
+	"dictionary": "Packages/Dictionaries/Portuguese (Brazilian).dic",
+	"draw_white_space": "all",
 	"font_size": 16,
 	"ignored_packages":
 	[
@@ -9,6 +11,7 @@
 	"predawn_findreplace_samll": true,
 	"predawn_quick_panel_small": true,
 	"predawn_tabs_small": true,
+	"spell_check": true,
 	"tab_size": 2,
 	"theme": "predawn.sublime-theme",
 	"translate_tabs_to_spaces": true
