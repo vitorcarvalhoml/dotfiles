@@ -4,7 +4,7 @@
 #
 # This installs some of the common dependencies needed (or at least desired)
 # using Homebrew.
-echo ".homebrew scripts"
+echo "homebrew scripts"
 # Ask for the administrator password upfront.
 sudo -v
 
@@ -23,29 +23,32 @@ brew update
 
 # Upgrade any already-installed formulae.
 brew upgrade --all
+
 # Taping brew repos
 brew tap homebrew/versions
 brew tap caskroom/versions
+
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
+brew install python
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-
-# Install homebrew packages
-brew install curl htop ssh-copy-id aria2 httpie nmap youtube-dl p7zip tree findutils speedtest_cli keybase pwgen uncrustify git git-lfs git-flow
-brew install packer terraform awscli
-# Install more recent versions of some OS X tools.
-brew install homebrew/dupes/screen
 brew install homebrew/dupes/grep
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
+
+# Install useful tools 
+brew install curl htop ssh-copy-id aria2 httpie nmap \
+youtube-dl p7zip tree findutils speedtest_cli \
+keybase pwgen uncrustify git git-lfs git-flow \
+packer terraform awscli ansible
 
 # Install homebrew cask
 brew tap caskroom/cask
 brew install brew-cask
 brew cask install firefox 
 brew cask install little-snitch
-open -a /opt/homebrew-cask/Caskroom/little-snitch/3.6.2/Little\ Snitch\ Installer.app
 brew cask install alfred
 brew cask install sublime-text3
 brew cask install slack
