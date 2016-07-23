@@ -9,7 +9,7 @@ ln -s ${BASEDIR}/gitfiles/gitconfig ~/.gitconfig
 sudo bash ${BASEDIR}/.ntp/install.sh
 
 # homesbrew
-bash ${BASEDIR}/.homebrew/install.sh
+bash ${BASEDIR}/homebrew/install.sh
 
 # vimfiles
 ln -s ${BASEDIR}/.vim/.vimrc ~/.vimrc
