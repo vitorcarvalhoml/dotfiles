@@ -6,7 +6,7 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ln -s ${BASEDIR}/gitfiles/gitconfig ~/.gitconfig
 
 # ntp.br
-sudo bash ${BASEDIR}/.ntp/install.sh
+sudo bash ${BASEDIR}/ntp/install.sh
 
 # homesbrew
 bash ${BASEDIR}/homebrew/install.sh
@@ -15,7 +15,7 @@ bash ${BASEDIR}/homebrew/install.sh
 bash ${BASEDIR}/vagrant/install.sh
 
 # vimfiles
-ln -s ${BASEDIR}/.vim/.vimrc ~/.vimrc
+ln -s ${BASEDIR}/vim/.vimrc ~/.vimrc
 
 # osx
 wget https://gist.githubusercontent.com/brandonb927/3195465/raw/2132357b6bb098b06b0419d7fc73d5c39054441d/osx-for-hackers.sh -O ${BASEDIR}/.osx/osx-for-hackers.sh
@@ -25,10 +25,6 @@ bash ${BASEDIR}/.osx/osx-for-hackers.sh
 bash ${BASEDIR}/zshrc/install.sh
 rm ~/.zshrc
 ln -s ${BASEDIR}/zshrc/zshrc ~/.zshrc
-
-# npm packages
-bash -p ${HOME}/.npm/install.sh
-ln -s ${BASEDIR}/.npm/.npmrc ~/.npmrc
 
 # st3 configuration
 ln -s ${BASEDIR}/.st3/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
