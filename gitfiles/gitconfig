@@ -1,0 +1,14 @@
+[core]
+	editor = vim
+[user]
+	name = Vitor Carvalho
+	email = vitorcarvalhoml@gmail.com
+
+[push]
+  default = simple
+
+  [color]
+    ui = true
+
+[web]
+  browser = google-chrome

@@ -2,6 +2,9 @@
 
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+# gitfiles
+ln -s ${BASEDIR}/gitfiles/gitconfig ~/.gitconfig
+
 # ntp.br
 sudo bash ${BASEDIR}/.ntp/install.sh
 
