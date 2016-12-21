@@ -14,3 +14,9 @@ But, if you do:
     $ git clone git@github.com:vitorcarvalhoml/dotfiles.git ~/.dotfiles
     $ cd .dotfiles
     $ ./install
+
+Remeber to create a tokens file into your home directory. The content is private, so I'm not put it here.
+
+```
+export HOMEBREW_GITHUB_API_TOKEN=<api-key>
+```
