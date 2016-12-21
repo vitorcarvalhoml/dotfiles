@@ -47,21 +47,25 @@ packer terraform awscli ansible
 # Install homebrew cask
 brew tap caskroom/cask
 brew install brew-cask
-brew cask install firefox 
-brew cask install little-snitch
 brew cask install alfred
-brew cask install sublime-text3
-brew cask install slack
-brew cask install the-unarchiver
-brew cask install google-drive
-brew cask install transmission
+brew cask install docker
 brew cask install evernote
-brew cask install vlc
+brew cask install firefox 
+brew cask install google-drive
+brew cask install gpgtools
+brew cask install little-snitch
+
 brew cask install screenhero
+brew cask install slack
+brew cask install sublime-text3
+brew cask install spectacle
+
+brew cask install tunnelblick
+brew cask install the-unarchiver
+brew cask install transmission
 brew cask install virtualbox
 brew cask install vagrant
-brew cask install gpgtools
-brew cask install spectacle
+brew cask install vlc
 
 # Remove outdated versions from the cellar.
 brew cleanup
