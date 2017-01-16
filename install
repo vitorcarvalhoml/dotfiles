@@ -17,9 +17,6 @@ bash ${BASEDIR}/vagrant/install.sh
 # vimfiles
 ln -s ${BASEDIR}/vim/vimrc ~/.vimrc
 
-# osx
-bash ${BASEDIR}/osx/osx-defaults.sh
-
 # zsh
 bash ${BASEDIR}/zshrc/install.sh
 rm ~/.zshrc
@@ -27,3 +24,6 @@ ln -s ${BASEDIR}/zshrc/zshrc ~/.zshrc
 
 # st3 configuration
 ln -s ${BASEDIR}/st3/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+
+# osx
+bash ${BASEDIR}/osx/osx-defaults.sh

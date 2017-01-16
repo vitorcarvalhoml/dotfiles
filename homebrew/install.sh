@@ -29,7 +29,7 @@ brew tap homebrew/versions
 brew tap caskroom/versions
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
+brew install vim --with-override-system-vi
 brew install python
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
@@ -55,17 +55,21 @@ brew cask install google-drive
 brew cask install gpgtools
 brew cask install little-snitch
 
+brew cask install macpass
+brew cask install osxfuse
 brew cask install screenhero
 brew cask install slack
-brew cask install sublime-text3
+brew cask install sublime-text
 brew cask install spectacle
 
+brew cask install telegram-desktop
 brew cask install tunnelblick
 brew cask install the-unarchiver
 brew cask install transmission
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vlc
+brew cask install whatsapp
 
 # Remove outdated versions from the cellar.
 brew cleanup

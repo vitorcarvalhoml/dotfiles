@@ -5,14 +5,12 @@
 	],
 	"installed_packages":
 	[
-		"Dictionaries",
+		"Dracula Color Scheme",
 		"Git",
 		"GitGutter",
-		"Indent XML",
 		"LaTeXTools",
 		"Markdown Preview",
 		"Package Control",
-		"Predawn",
 		"ProjectManager",
 		"Python PEP8 Autoformat",
 		"SFTP",
