@@ -55,6 +55,7 @@ brew cask install google-drive
 brew cask install gpgtools
 brew cask install little-snitch
 
+brew cask install flux
 brew cask install macpass
 brew cask install osxfuse
 brew cask install screenhero

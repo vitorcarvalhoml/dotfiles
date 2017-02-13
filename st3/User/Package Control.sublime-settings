@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"ayu",
 		"Dracula Color Scheme",
 		"Git",
 		"GitGutter",
