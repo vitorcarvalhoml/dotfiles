@@ -8,7 +8,9 @@ set number
 set backspace=indent,eol,start
 set showmode
 set visualbell
+set hlsearch
 syntax on
+color dracula
 
 "Turn Off Swap Files"
 set noswapfile
