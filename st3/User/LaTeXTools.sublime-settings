@@ -196,6 +196,7 @@
 
 		// (built-ins): true shows the log of each command in the output panel
 		"display_log" : false,
+		"options": ["--shell-escape"],
 
 		// Platform-specific settings:
 		"osx" : {
