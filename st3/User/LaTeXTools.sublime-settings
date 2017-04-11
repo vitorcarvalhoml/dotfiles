@@ -170,7 +170,8 @@
 	// NOTE: custom builders CANNOT have the same name as an existing
 	// built-in build engine (including "default")
 
-	"builder": "traditional",
+	// "builder": "traditional",
+	// "builder": "Thesis",
 
 	// OPTION: "builder_path"
 	// If non-empty, specifies a path to a custom builder, relative to the
@@ -181,6 +182,7 @@
 	// console, but things will still work).
 	// Leave empty ("") for a built-in builder.
 
+	// "builder_path": "User/LaTeXTools Builders",
 	"builder_path": "",
 
 	// OPTION: "builder_settings"

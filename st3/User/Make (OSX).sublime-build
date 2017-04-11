@@ -1,0 +1,24 @@
+{
+  "cmd": "make",
+  "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+  "selector": "source.makefile",
+  "variants":
+   [
+     {
+       "name": "Thesis",
+       "shell_cmd": "make thesis"
+     },
+     {
+       "name": "View",
+       "shell_cmd": "make view"
+     },
+     {
+       "name": "Images",
+       "shell_cmd": "make images"
+     },
+     {
+       "name": "Clean",
+       "shell_cmd": "make clean"
+     },
+   ]
+}
