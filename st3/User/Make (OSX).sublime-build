@@ -1,12 +1,12 @@
 {
-  "cmd": "make",
+  "shell_cmd": "make thesis",
   "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
   "selector": "source.makefile",
   "variants":
    [
      {
-       "name": "Thesis",
-       "shell_cmd": "make thesis"
+       "name": "All",
+       "shell_cmd": "make all"
      },
      {
        "name": "View",
