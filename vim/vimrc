@@ -2,6 +2,7 @@
 scriptencoding utf-8
 set encoding=utf-8
 set nocompatible
+filetype off
 
 "General Config"
 set number
@@ -9,8 +10,10 @@ set backspace=indent,eol,start
 set showmode
 set visualbell
 set hlsearch
+set laststatus=2
 syntax on
-color dracula
+filetype plugin on
+"color dracula
 
 "Turn Off Swap Files"
 set noswapfile
@@ -31,3 +34,14 @@ set showmatch
 set scrolloff=8
 set sidescrolloff=15
 set sidescroll=1
+
+"Changing make options"
+augroup auto_make
+    autocmd!
+    "autocmd BufWritePost * silent make
+    autocmd QuickFixCmdPost *make* cwindow
+augroup END
+
+"Source files"
+source ~/.vim/vundle.vim
+source ~/.vim/plugins.vim

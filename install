@@ -15,7 +15,7 @@ bash ${BASEDIR}/homebrew/install.sh
 bash ${BASEDIR}/vagrant/install.sh
 
 # vimfiles
-ln -s ${BASEDIR}/vim/vimrc ~/.vimrc
+ln -s ${BASEDIR}/vim ~/.vim
 
 # zsh
 bash ${BASEDIR}/zshrc/install.sh
