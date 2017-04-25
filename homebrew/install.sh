@@ -60,7 +60,7 @@ brew cask install macpass
 brew cask install osxfuse
 brew cask install screenhero
 brew cask install slack
-brew cask install sublime-text
+brew cask install macvim
 brew cask install spectacle
 
 brew cask install telegram-desktop
