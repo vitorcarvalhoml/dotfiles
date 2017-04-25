@@ -31,6 +31,7 @@ brew tap caskroom/versions
 # Install more recent versions of some OS X tools.
 brew install vim --with-override-system-vi
 brew install python
+brew install grip # required by vim plugin
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/dupes/grep

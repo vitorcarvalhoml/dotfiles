@@ -10,6 +10,7 @@ Plugin 'johnsyweb/vim-makeshift'
 Plugin 'lervag/vimtex'
 Plugin 'shougo/neocomplete.vim'
 Plugin 'amiorin/vim-project'
+Plugin 'JamshedVesuna/vim-markdown-preview'
 
 call vundle#end()
 filetype plugin indent on
