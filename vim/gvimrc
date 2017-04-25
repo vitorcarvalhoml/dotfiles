@@ -1,0 +1,7 @@
+"General configuration"
+set guifont=Monaco:h18
+
+"Ayu configuration"
+set termguicolors
+let ayucolor='light'
+colorscheme ayu

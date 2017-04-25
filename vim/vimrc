@@ -20,6 +20,10 @@ set noswapfile
 set nobackup
 set nowb
 
+"Tex options"
+let g:tex_flavor = 'tex'
+let maplocalleader = "\\"
+
 "Indentation Config"
 set autoindent
 set smartindent
@@ -43,5 +47,6 @@ augroup auto_make
 augroup END
 
 "Source files"
+source ~/.vim/projects.vim
 source ~/.vim/vundle.vim
 source ~/.vim/plugins.vim
