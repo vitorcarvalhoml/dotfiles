@@ -4,6 +4,9 @@ set encoding=utf-8
 set nocompatible
 filetype off
 
+"Mapping belkin keys
+:imap qq <Esc> 
+
 "General Config"
 set number
 set backspace=indent,eol,start
