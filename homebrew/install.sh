@@ -39,6 +39,9 @@ brew install homebrew/dupes/grep
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
+# Install aspell
+brew install aspell --with-lang-pt_BR --with-lang-en
+
 # Install useful tools 
 brew install curl htop ssh-copy-id aria2 httpie nmap \
 youtube-dl p7zip tree findutils speedtest_cli \
