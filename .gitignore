@@ -16,3 +16,4 @@ st3/User/Projects/*
 
 # vim things
 vim/.netrwhist
+vim/bundle/*
