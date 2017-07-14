@@ -12,6 +12,7 @@ Plugin 'shougo/neocomplete.vim'
 Plugin 'amiorin/vim-project'
 Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'aklt/plantuml-syntax'
+Plugin 'editorconfig/editorconfig-vim'
 
 call vundle#end()
 filetype plugin indent on

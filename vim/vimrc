@@ -4,6 +4,10 @@ set encoding=utf-8
 set nocompatible
 filetype off
 
+"Tabs
+map tp :tabprevious <cr>
+map tn :tabnext <cr>
+
 "Mapping belkin keys
 :imap qq <Esc> 
 
@@ -17,6 +21,8 @@ set laststatus=2
 syntax on
 filetype plugin on
 "color dracula
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
 
 "Turn Off Swap Files"
 set noswapfile
