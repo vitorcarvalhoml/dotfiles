@@ -4,6 +4,11 @@ set encoding=utf-8
 set nocompatible
 filetype off
 
+"Source files"
+source ~/.vim/projects.vim
+source ~/.vim/vundle.vim
+source ~/.vim/plugins.vim
+
 "Tabs
 map tp :tabprevious <cr>
 map tn :tabnext <cr>
@@ -12,17 +17,16 @@ map tn :tabnext <cr>
 :imap qq <Esc> 
 
 "General Config"
+syntax on
+colorscheme dracula
 set number
 set backspace=indent,eol,start
 set showmode
-set visualbell
+set nowrap
 set hlsearch
 set laststatus=2
-syntax on
 filetype plugin on
-"color dracula
 set noerrorbells visualbell t_vb=
-autocmd GUIEnter * set visualbell t_vb=
 
 "Turn Off Swap Files"
 set noswapfile
@@ -55,7 +59,3 @@ augroup auto_make
     autocmd QuickFixCmdPost *make* cwindow
 augroup END
 
-"Source files"
-source ~/.vim/projects.vim
-source ~/.vim/vundle.vim
-source ~/.vim/plugins.vim
