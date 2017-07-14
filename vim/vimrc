@@ -14,7 +14,7 @@ map tp :tabprevious <cr>
 map tn :tabnext <cr>
 
 "Mapping belkin keys
-:imap qq <Esc> 
+":imap qq <Esc> 
 
 "General Config"
 syntax on
@@ -27,6 +27,9 @@ set hlsearch
 set laststatus=2
 filetype plugin on
 set noerrorbells visualbell t_vb=
+
+"General maps
+nnoremap qq <C-w>w
 
 "Turn Off Swap Files"
 set noswapfile

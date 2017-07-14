@@ -14,6 +14,7 @@ Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'aklt/plantuml-syntax'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'dracula/vim'
+Plugin 'jistr/vim-nerdtree-tabs'
 
 call vundle#end()
 filetype plugin indent on
