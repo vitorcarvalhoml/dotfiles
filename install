@@ -16,6 +16,7 @@ bash ${BASEDIR}/vagrant/install.sh
 
 # vimfiles
 ln -s ${BASEDIR}/vim ~/.vim
+vim -c 'PluginInstall' -c 'qa!'
 
 # zsh
 bash ${BASEDIR}/zshrc/install.sh
