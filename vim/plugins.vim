@@ -7,7 +7,7 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 "autocmd VimEnter * if argc() == 1 | NERDTree | wincmd p | endif
 
 "NERDTreeTabs configuration"
-map n :NERDTreeTabsToggle<CR>
+map ff :NERDTreeTabsToggle<CR>
 
 "Makeshift configuration"
 let g:makeshift_chdir = 1
