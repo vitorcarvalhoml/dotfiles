@@ -55,7 +55,7 @@ brew cask install alfred
 brew cask install docker
 brew cask install evernote
 brew cask install firefox 
-brew cask install google-drive
+brew cask install google-backup-and-sync
 brew cask install gpgtools
 brew cask install little-snitch
 
