@@ -50,8 +50,6 @@ packer terraform awscli ansible
 brew tap caskroom/cask
 brew install brew-cask
 brew cask install alfred \
-  docker \
-  evernote \
   firefox  \
   google-backup-and-sync \
   gpgtools \
@@ -60,17 +58,10 @@ brew cask install alfred \
 brew cask install flux
 brew cask install macpass
 brew cask install osxfuse
-brew cask install screenhero
-brew cask install slack
-brew cask install macvim
 brew cask install spectacle
 
-brew cask install telegram-desktop
-brew cask install tunnelblick
 brew cask install the-unarchiver
 brew cask install transmission
-brew cask install virtualbox
-brew cask install vagrant
 brew cask install vlc
 brew cask install whatsapp
 
