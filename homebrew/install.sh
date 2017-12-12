@@ -29,18 +29,16 @@ brew tap homebrew/versions
 brew tap caskroom/versions
 
 # Install more recent versions of some OS X tools.
-brew install vim --with-override-system-vi
-brew install python
-brew install grip # required by vim plugin
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
-brew install homebrew/dupes/grep
+brew install vim --with-override-system-vi \
+  python \
+  grip \ # required by vim plugin
+  homebrew/dupes/openssh \
+  homebrew/dupes/screen \
+  homebrew/dupes/grep
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
-
-# Install aspell
-brew install aspell --with-lang-pt_BR --with-lang-en
+brew install wget --with-iri \
+  aspell --with-lang-pt_BR --with-lang-en
 
 # Install useful tools 
 brew install curl htop ssh-copy-id aria2 httpie nmap \
@@ -51,13 +49,13 @@ packer terraform awscli ansible
 # Install homebrew cask
 brew tap caskroom/cask
 brew install brew-cask
-brew cask install alfred
-brew cask install docker
-brew cask install evernote
-brew cask install firefox 
-brew cask install google-backup-and-sync
-brew cask install gpgtools
-brew cask install little-snitch
+brew cask install alfred \
+  docker \
+  evernote \
+  firefox  \
+  google-backup-and-sync \
+  gpgtools \
+  little-snitch \
 
 brew cask install flux
 brew cask install macpass
