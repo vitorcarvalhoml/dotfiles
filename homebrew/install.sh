@@ -41,10 +41,9 @@ brew install wget --with-iri \
   aspell --with-lang-pt_BR --with-lang-en
 
 # Install useful tools 
-brew install curl htop ssh-copy-id aria2 httpie nmap \
+brew install curl htop ssh-copy-id aria2 \
 youtube-dl p7zip tree findutils speedtest_cli \
-keybase pwgen uncrustify git git-lfs git-flow \
-packer terraform awscli ansible
+keybase pwgen uncrustify git \
 
 # Install homebrew cask
 brew tap caskroom/cask

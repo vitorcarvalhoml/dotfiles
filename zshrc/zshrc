@@ -20,8 +20,6 @@ source $ZSH/oh-my-zsh.sh > /dev/null 2>&1
 source ~/.dotfiles/env/env.sh > /dev/null 2>&1
 # aliases
 source ~/.dotfiles/alias/alias.sh > /dev/null 2>&1
-# tokens
-source ~/.tokens
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
