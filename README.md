@@ -11,7 +11,7 @@ You don't. [Dotfiles Are Not Meant to Be Forked](http://www.anishathalye.com/201
 But, if you do:
 
     $ xcode-select --install
-    $ git clone git@github.com:vitorcarvalhoml/dotfiles.git ~/.dotfiles
+    $ git clone --recursive git@github.com:vitorcarvalhoml/dotfiles.git ~/.dotfiles
     $ cd .dotfiles
     $ ./install
 
